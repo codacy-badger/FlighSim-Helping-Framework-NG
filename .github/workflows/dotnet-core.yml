@@ -1,0 +1,31 @@
+name: .NET Core. Multiple platforms
+
+on:
+  push:
+    branches: [ master, dev ]
+  pull_request:
+    branches: [ master, dev ]
+
+jobs:
+  build:
+    name: Build on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macOS-latest]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+    - name: Install dependencies
+      working-directory: Source/FlighSim Helping Framework NG
+      run: dotnet restore
+    - name: Build
+      working-directory: Source/FlighSim Helping Framework NG
+      run: dotnet build --configuration Release --no-restore
+    - name: Test
+      working-directory: Source/FlighSim Helping Framework NG
+      run: dotnet test --no-restore --verbosity normal

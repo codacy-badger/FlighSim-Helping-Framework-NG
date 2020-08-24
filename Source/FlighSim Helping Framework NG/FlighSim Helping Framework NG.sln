@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightSimStandardLibraryNG.Core", "FlightSimStandardLibraryNG.Core\FlightSimStandardLibraryNG.Core.csproj", "{CC4F9248-5E40-4003-BBD5-AFEE835EA2F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FlightSim Standard Library NG", "FlightSim Standard Library NG", "{11860CB6-07AF-41C3-A615-5ABABDEBE49A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightSimStandardLibraryNG.Core.UnitTests", "FlightSimStandardLibraryNG.Core.UnitTests\FlightSimStandardLibraryNG.Core.UnitTests.csproj", "{DEF1373F-4802-46F5-B331-ACCD164E6427}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing Helper", "Testing Helper", "{5A773128-74D8-407D-BB92-A367815F29B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingHelper", "TestingHelper\TestingHelper.csproj", "{CDF99C64-49BB-4D75-B22D-13602C2E8002}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC4F9248-5E40-4003-BBD5-AFEE835EA2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4F9248-5E40-4003-BBD5-AFEE835EA2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4F9248-5E40-4003-BBD5-AFEE835EA2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4F9248-5E40-4003-BBD5-AFEE835EA2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF1373F-4802-46F5-B331-ACCD164E6427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF1373F-4802-46F5-B331-ACCD164E6427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF1373F-4802-46F5-B331-ACCD164E6427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF1373F-4802-46F5-B331-ACCD164E6427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF99C64-49BB-4D75-B22D-13602C2E8002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF99C64-49BB-4D75-B22D-13602C2E8002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF99C64-49BB-4D75-B22D-13602C2E8002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF99C64-49BB-4D75-B22D-13602C2E8002}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC4F9248-5E40-4003-BBD5-AFEE835EA2F2} = {11860CB6-07AF-41C3-A615-5ABABDEBE49A}
+		{DEF1373F-4802-46F5-B331-ACCD164E6427} = {11860CB6-07AF-41C3-A615-5ABABDEBE49A}
+		{CDF99C64-49BB-4D75-B22D-13602C2E8002} = {5A773128-74D8-407D-BB92-A367815F29B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {382FF3E4-F9F3-4E31-A432-FF6755D45B18}
+	EndGlobalSection
+EndGlobal
